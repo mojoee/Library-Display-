@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="script.js"> </script>
+    <link rel="stylesheet" href="style.css" />
 </head>
+<script
+src="https://kit.fontawesome.com/4c536a6bd5.js"
+crossorigin="anonymous"
+></script>
+<header class="header">
+    <div class="container">
+        <h1>Library</h1>
+        <button class="btn btn-add" onclick=addBookToLibrary()>Add Book</button>
+        <button class="btn btn-add" onclick=displayBooks()>Show Library</button>
+    </div>
+</header>
 <body>
-    <button onclick=addBookToLibrary()>Add Book</button>
-    <button onclick=displayBooks()>Show Library</button>
     <table id="booksTable">
         <thead>
             <tr>
